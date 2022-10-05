@@ -1,0 +1,46 @@
+:root {
+  --bg: rgb(26, 26, 26);
+  --text: white;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  height: 100vh;
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+h1 {
+  font-size: 5em;
+}
+.title {
+  min-height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  --inputheight: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.input input {
+  height: var(--inputheight);
+  width: 600px;
+  padding: 0 20px;
+  font-size: 1.25em;
+  border: none;
+
+}
+.input button {
+  height: var(--inputheight);
+  aspect-ratio: 1;
+  padding: 0;
+  border: none;
+  font-size: 1.25em;
+}
