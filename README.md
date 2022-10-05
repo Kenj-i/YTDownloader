@@ -12,5 +12,6 @@ Node Js, Electron, Javascript, HTML, CSS
 ## Disclaimer
 This downloader was created to download your own videos and your own videos only. Downloading any video from a different user is agains YouTube terms of service.
 
-## What it looks like
+## Images
 ![grafik](https://user-images.githubusercontent.com/99955639/194108977-cd0598f4-6089-4c49-9554-377f3e1fde19.png)
+![icon](https://user-images.githubusercontent.com/99955639/194118278-c465fc08-7eda-44dc-a472-17aec319cb39.png)
