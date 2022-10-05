@@ -14,6 +14,8 @@ button {
 }
 h1 {
   font-size: 5em;
+  text-align: center;
+  margin: 0;
 }
 .title {
   min-height: 30vh;
@@ -29,18 +31,34 @@ h1 {
   display: flex;
   justify-content: center;
 }
-.input input {
+input {
   height: var(--inputheight);
   width: 600px;
   padding: 0 20px;
   font-size: 1.25em;
   border: none;
-
 }
-.input button {
+input:focus {
+  outline: none;
+}
+button {
   height: var(--inputheight);
   aspect-ratio: 1;
   padding: 0;
   border: none;
   font-size: 1.25em;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 4em;
+  }
+  input {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.5em;
+  }
 }
